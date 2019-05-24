@@ -144,7 +144,7 @@ void print1dMatVec(int n, double *vec, double *mat, double *sol)
     // Conditional printing to add the '*' and '=' characters
     if (i == n / 2)
     {
-      printf("* %f = %f\n", vec[i], sol[i]);
+      printf("  %f = %f\n", vec[i], sol[i]);
     }
     else
     {
@@ -167,7 +167,7 @@ void print2dMatVec(int n, double *vec, double **mat, double *sol)
     // Conditional printing to add the '*' and '=' characters
     if (i == n / 2)
     {
-      printf("* %f = %f\n", vec[i], sol[i]);
+      printf("  %f = %f\n", vec[i], sol[i]);
     }
     else
     {
