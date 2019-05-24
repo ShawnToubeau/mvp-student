@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime=0:00:10
+
+
+#PBS -q batch
+#PBS -N MvpStudent
+#PBS -j oe
+
+cd /home/toubeaus/LA1
+./mvp-student.x 5
