@@ -199,7 +199,7 @@ int main(int argc, char **argv)
 {
   if (!argv[1])
   {
-    printf("Please supply na argument for n in the command line\n");
+    printf("Please supply a argument for n in the command line\n");
     return 0;
   }
   int n = atoi(argv[1]);
